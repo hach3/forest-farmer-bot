@@ -1,5 +1,5 @@
-# Farming Bot for Sunflower Farmer
-This repository includes a potato🥔 farming bot. I don't provide any support.
+# Farming Bot for Forest Farmer
+This repository includes a farming bot. Use the script harvest.ts to automatically harvest your plants.
 
 ## How to Use
 
@@ -12,8 +12,7 @@ vim hardhat.config.ts
 
 # Step 1: Send MATIC and SFF to your farm wallet
 
-# Step 2: Create farm
-env WALLET=1 npx hardhat run scripts/createFarm.ts --network polygon
+# Step 2: Create your farm by hand
 
 # Step 3: Earn without playing 
 env WALLET=1 npx hardhat run scripts/harvest.ts --network polygon
@@ -22,8 +21,7 @@ env WALLET=1 npx hardhat run scripts/harvest.ts --network polygon
 ## FAQ
 
 ### Why do you publish bot?
-Sunflower Farmer is a funny blockchain game that reminds me of legacy browser games. But Play-To-Earn is awful. That's everything.
+So you can earn money while you sleep. I feel less guilty if I share it =D
 
 ## Licenses
 - scripts/*.ts: me (MIT License) No wannary
-- contracts/*.sol: [Sunflower Farmer](https://github.com/sunflower-farmers/sunflower-farmers) (MIT License)
